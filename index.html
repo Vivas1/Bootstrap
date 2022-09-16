@@ -1,23 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trabajo Practico</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .navbar-brand {
+      padding-left: 60px;
+      color: white;
+    }
 
+    .nav-link {
+      color: white;
+    }
 
-<body>
-    <h1>Prueba en la Nube</h1>
-   <!--12 columnas -->
-   <div class="container"style="background-color: blue;">
+    .navbar-nav {
+      padding-right: 60px;
+    }
 
-        <h2>dentro de la clase container</h2>
+    .nav-link:hover {
+      color: dimgrey;
+    }
+  </style>
 
-   </div>
+  <body>
+    <!-- Inicio de la barra de Navegacion-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <a href="#" class="navbar-brand mb-0 h1">
+        <img src="./Images/codoacodo.png" width="80" height="80" />
+        Conf BaAs
+      </a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link"> La Conferencia </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Los Oradores </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> El Lugar y la Fecha </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Convierte en Orador </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Fin de la Barra de Navegacion-->
+
+    <!-- Inicio del Carousel-->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Images/ba1.jpg" class="d-block w-100" alt="1" />
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/ba2.jpg" class="d-block w-100" alt="2" />
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/ba3.jpg" class="d-block w-100" alt="3" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- fin del Carousel-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
