@@ -38,10 +38,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" aria-current="page" href="#">La Conferencia</a>
-            <a class="nav-link" href="#">Los Oradores</a>
+            <a class="nav-link" aria-current="page" href="#conferencia">La Conferencia</a>
+            <a class="nav-link" href="#oradores">Los Oradores</a>
             <a class="nav-link" href="#">Lugar y Fecha</a>
-            <a class="nav-link" href="#">Conviertete en Orador</a>
+            <a class="nav-link" href="#quieroSerOrador">Conviertete en Orador</a>
             <a class="nav-link" href="#">Comprar Tickets</a>
           </div>
         </div>
@@ -52,7 +52,7 @@
 
     <!-- Inicio del Carousel-->
     <div
-      id="carouselExampleControls"
+      id="conferencia"
       class="carousel slide"
       data-bs-ride="carousel"
     >
@@ -68,6 +68,8 @@
               miembros del evento a otros estudiantes de Codo a Codo y los
               oradors de primer nivel que tenemos para ti. Te esperamos.
             </p>
+            <a href="#quieroSerOrador" class="btn btn-light">Quiero ser orador</a>
+            <a class="btn btn-success">Comprar tickets</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -81,6 +83,8 @@
               miembros del evento a otros estudiantes de Codo a Codo y los
               oradors de primer nivel que tenemos para ti. Te esperamos.
             </p>
+            <a href="#quieroSerOrador" class="btn btn-light">Quiero ser orador</a>
+            <a class="btn btn-success">Comprar tickets</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -94,6 +98,8 @@
               miembros del evento a otros estudiantes de Codo a Codo y los
               oradors de primer nivel que tenemos para ti. Te esperamos.
             </p>
+            <a href="#quieroSerOrador" class="btn btn-light">Quiero ser orador</a>
+            <a class="btn btn-success">Comprar tickets</a>
           </div>
         </div>
       </div>
@@ -119,7 +125,7 @@
     <!--fin del Carosuel-->
 
     <!-- Inicio del Card Componente-->
-    <div class="container">
+    <div id="oradores"  class="container">
       <p class="card_images">CONOCE A LOS</p>
       <h2 class="card_images">ORADORES</h2>
       <div class="card-group">
@@ -128,8 +134,8 @@
           <div class="card-body">
             <h5 class="card-title">Steve Jobs</h5>
             <p class="card-text">
-              <small class="text-muted">Java Script </small>
-              <small class="text-muted">React </small>
+              <button type="button" class="btn btn-warning">Java Script</button>
+              <button type="button" class="btn btn-info">React</button>
             </p>
             <p class="card-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus,
@@ -144,8 +150,8 @@
           <div class="card-body">
             <h5 class="card-title">Bill Gates</h5>
             <p class="card-text">
-              <small class="text-muted">Java Script</small>
-              <small class="text-muted">React </small>
+              <button type="button" class="btn btn-warning">Java Script</button>
+              <button type="button" class="btn btn-info">React</button>
             </p>
             <p class="card-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -160,8 +166,8 @@
           <div class="card-body">
             <h5 class="card-title">Ada Lovelace</h5>
             <p class="card-text">
-              <small class="text-muted">Negocios</small>
-              <small class="text-muted">Startups</small>
+              <button type="button" class="btn btn-secondary">Negocios</button>
+              <button type="button" class="btn btn-danger">Startups</button>
             </p>
             <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
@@ -197,7 +203,7 @@
     <!--Columna con imagen a la izquierda-->
 
     <!--formulario de contacto-->
-    <div class="container-md">
+    <div id="quieroSerOrador" class="container-md">
       <div class="titulo">
         <h5>CONVIERTE EN UN</h5>
         <h2>ORADOR</h2>
