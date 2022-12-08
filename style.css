@@ -187,6 +187,7 @@
 .container-md {
   width: 50vw;
   align-self: center;
+  margin-top: 2rem;
 }
 
 .container-md .btn-submit {
@@ -196,6 +197,31 @@
   background-color: rgba(10, 131, 36, 0.8);
   border: none;
   color: white;
+}
+
+.anchoTotal {
+  width: 100%;
+}
+
+.cajaEstudiante {
+  border: solid 1px;
+  border-color: blue;
+  min-height: 100px;
+  text-align: center;
+}
+
+.cajaTrainee {
+  border: solid 1px;
+  border-color: cyan;
+  min-height: 100px;
+  text-align: center;
+}
+
+.cajaJunior {
+  border: solid 1px;
+  border-color: yellow;
+  min-height: 100px;
+  text-align: center;
 }
 
 .container-md .btn-submit:hover {
